@@ -20,5 +20,10 @@
   "devDependencies": {
     "@types/node": "20.2.1",
     "prettier": "^2.8.8"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "react-error-boundary@4.0.4": "patches/react-error-boundary@4.0.4.patch"
+    }
   }
 }
